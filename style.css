@@ -1127,6 +1127,14 @@ img {
   gap: 35px;
 }
 
+.contact-wrapper.contact-centered {
+  display: flex;
+  flex-direction: column;
+  max-width: 650px;
+  margin: 0 auto;
+  gap: 20px;
+}
+
 .contact-info-cards {
   display: flex;
   flex-direction: column;
