@@ -14,7 +14,7 @@
   <!-- Open Graph Meta Tags -->
   <meta property="og:title" content="Hanaan Mohamed | Portfolio" />
   <meta property="og:description" content="Computer Science Student | Future Software Developer. Passionate about technology, Python, Web Development, and AI." />
-  <meta property="og:image" content="profile.jpg" />
+  <meta property="og:image" content="assets/images/profile.jpg" />
   <meta property="og:type" content="website" />
 
   <!-- Google Fonts: Plus Jakarta Sans -->
@@ -133,7 +133,7 @@
             <!-- Gradient Ring & Circular Image Frame -->
             <div class="image-frame circle-frame">
               <img 
-                src="profile.jpg" 
+                src="assets/images/profile.jpg" 
                 alt="Portrait of Hanaan Mohamed - Computer Science Student and Aspiring Software Developer" 
                 class="profile-image circle-img" 
                 loading="eager"
@@ -490,68 +490,38 @@
           </p>
         </div>
 
-        <div class="contact-wrapper">
-          <!-- Contact Channels: Gmail -->
-          <div class="contact-info-cards">
-            <!-- Email Item (Official) -->
-            <div class="contact-card primary-contact-card">
-              <div class="contact-icon icon-purple">
-                <i class="fa-solid fa-envelope"></i>
-              </div>
-              <div class="contact-details">
-                <h4>Official Gmail</h4>
-                <a href="mailto:mohamadsdaughter609@gmail.com" class="contact-link" id="email-address">
-                  mohamadsdaughter609@gmail.com
-                </a>
-                <span class="contact-hint">Click to send an email directly to Hanaan</span>
-              </div>
-              <button class="copy-btn" id="copy-email-btn" title="Copy email address" aria-label="Copy email address">
-                <i class="fa-regular fa-copy"></i>
-                <span class="copy-tooltip" id="copy-tooltip">Copy</span>
-              </button>
+        <div class="contact-wrapper contact-centered">
+          <!-- Email Card -->
+          <div class="contact-card primary-contact-card">
+            <div class="contact-icon icon-purple">
+              <i class="fa-solid fa-envelope"></i>
             </div>
-
-            <!-- Direct Mail Button Card -->
-            <div class="contact-direct-card">
-              <div class="direct-card-content">
-                <i class="fa-brands fa-google"></i>
-                <div>
-                  <h5>Send an Email via Gmail</h5>
-                  <p>Open your mail client and message me directly.</p>
-                </div>
-              </div>
-              <a href="mailto:mohamadsdaughter609@gmail.com" class="btn btn-primary btn-sm">
-                <span>Compose Mail</span>
-                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            <div class="contact-details">
+              <h4>Official Gmail</h4>
+              <a href="mailto:mohamadsdaughter609@gmail.com" class="contact-link" id="email-address">
+                mohamadsdaughter609@gmail.com
               </a>
+              <span class="contact-hint">Click to send an email directly to Hanaan</span>
             </div>
+            <button class="copy-btn" id="copy-email-btn" title="Copy email address" aria-label="Copy email address">
+              <i class="fa-regular fa-copy"></i>
+              <span class="copy-tooltip" id="copy-tooltip">Copy</span>
+            </button>
           </div>
 
-          <!-- Quick Friendly Message Form -->
-          <div class="contact-form-card">
-            <h3>Send a Quick Message</h3>
-            <p class="form-instructions">
-              Have an advice, opportunity, or simply want to say hello? Send a message below.
-            </p>
-            <form id="contact-form" class="contact-form">
-              <div class="form-group">
-                <label for="name">Your Name</label>
-                <input type="text" id="name" name="name" placeholder="e.g. Sarah Jenkins" required />
+          <!-- Direct Mail Button Card -->
+          <div class="contact-direct-card">
+            <div class="direct-card-content">
+              <i class="fa-brands fa-google"></i>
+              <div>
+                <h5>Send an Email via Gmail</h5>
+                <p>Open your mail client and message me directly.</p>
               </div>
-              <div class="form-group">
-                <label for="email">Your Email</label>
-                <input type="email" id="email" name="email" placeholder="e.g. sarah@example.com" required />
-              </div>
-              <div class="form-group">
-                <label for="message">Message</label>
-                <textarea id="message" name="message" rows="4" placeholder="Write your message here..." required></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary btn-block" id="form-submit-btn">
-                <span>Send Message</span>
-                <i class="fa-regular fa-paper-plane"></i>
-              </button>
-              <div class="form-feedback" id="form-feedback" role="alert"></div>
-            </form>
+            </div>
+            <a href="mailto:mohamadsdaughter609@gmail.com" class="btn btn-primary btn-sm">
+              <span>Compose Mail</span>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
           </div>
         </div>
       </div>
